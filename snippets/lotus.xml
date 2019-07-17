@@ -47,6 +47,7 @@
   <project path="vendor/themes" name="android_vendor_themes" remote="lotus" />
   <project path="vendor/pixelstyle" name="android_vendor_pixelstyle" remote="lotus" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="lotus" />
+  <project path="hardware/qcom/display-caf/headers" name="android_hardware_qcom_display-caf_headers" remote="lotus" />
 
   <!-- Packages repos -->
   <project path="packages/apps/Lotus" name="android_packages_apps_Lotus" remote="lotus" />
