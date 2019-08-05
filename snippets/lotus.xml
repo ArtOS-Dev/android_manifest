@@ -43,6 +43,7 @@
 
   <project path="bootable/recovery" name="android_bootable_recovery" remote="lotus" />
   <project path="manifest" name="platform_manifest" remote="lotus" />
+    <project path="art" name="android_art" remote="lotus" />
   <project path="vendor/lotus" name="android_vendor_lotus" remote="lotus" />
   <project path="vendor/themes" name="android_vendor_themes" remote="lotus" />
   <project path="vendor/pixelstyle" name="android_vendor_pixelstyle" remote="lotus" />

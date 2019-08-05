@@ -75,7 +75,6 @@
   <project path="external/skia" name="android_external_skia" remote="lineage" />
 
   <!-- General repos -->
-  <project path="art" name="android_art" remote="lineage" />
   <project path="development" name="android_development" remote="lineage" />
 
   <!-- Hardware repos -->
