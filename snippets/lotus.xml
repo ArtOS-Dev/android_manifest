@@ -61,6 +61,7 @@
   <!-- System Repos -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="lotus" />
   <project path="system/netd" name="android_system_netd" remote="lotus" />
+  <project path="system/libhidl" name="android_system_libhidl" remote="lotus" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="lotus" />
   <project path="system/vold" name="android_system_vold" remote="lotus" />
   
