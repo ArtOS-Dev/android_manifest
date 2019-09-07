@@ -5,8 +5,8 @@
           fetch="https://github.com/LotusOS"
           revision="pie" />
 
-  <remote name="lotus-devices"
-          fetch="https://github.com/LotusOS-Devices"
+  <remote name="pixel"
+          fetch="https://github.com/PixelExperience"
           revision="pie" />
 
   <remote name="pixel-gitlab"
@@ -94,6 +94,8 @@
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="lotus" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="lotus" />
   <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="lotus" />
+  <project path="packages/apps/Longshot" name="android_packages_apps_Longshot" remote="lotus" />
+  <project path="packages/apps/Recorder" name="android_packages_apps_Recorder" remote="lotus" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="lotus" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="lotus" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="lotus" />
