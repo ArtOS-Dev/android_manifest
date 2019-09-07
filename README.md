@@ -8,14 +8,14 @@ To get started with the building process, you'll need to get familiar with [Git 
 To initialize your local repository, use a command like this:
 
 ```bash
-    repo init -u git://github.com/LotusOS/android_manifest.git -b pie
+    repo init -u https://gitlab.com/LotusOS/android_manifest.git -b pie
 ```
 
 Then to sync up:
 ================
 
 ```bash
-    repo sync -c -j8 --force-sync --no-clone-bundle --no-tags
+    repo sync -c -j14 --force-sync --no-clone-bundle --no-tags
 ```
 
 Additionally, you can define the number of parallel download repo should do:
