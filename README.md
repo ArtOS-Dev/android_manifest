@@ -8,20 +8,20 @@ To get started with the building process, you'll need to get familiar with [Git 
 To initialize your local repository, use a command like this:
 
 ```bash
-    repo init -u https://gitlab.com/LotusOS/android_manifest.git -b pie
+    repo init -u https://github.com/Lotus-OS/android_manifest.git -b pie
 ```
 
 Then to sync up:
 ================
 
 ```bash
-    repo sync -c -j14 --force-sync --no-clone-bundle --no-tags
+    repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
 
 Additionally, you can define the number of parallel download repo should do:
 
 ```bash
-    repo sync -f -j8 --force-sync --no-clone-bundle --no-tags
+    repo sync -f -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
 
 Compilation of Lotus OS:
@@ -33,7 +33,7 @@ From root directory of Project, perform following commands in terminal
 ```bash
 source build/envsetup.sh
 lunch lotus_<devicecodename>-userdebug
-make bacon
+make bacon -j$(nproc --all)
 ```
 -----------------------------------------------------------------------------
 

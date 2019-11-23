@@ -2,7 +2,7 @@
 <manifest>
 
   <remote name="lotus"
-          fetch="https://gitlab.com/LotusOS"
+          fetch="https://github.com/Lotus-OS"
           revision="pie" />
 
   <remote name="pixel"
