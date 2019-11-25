@@ -1,4 +1,6 @@
 # LotusOS #
+==============
+<img src="https://raw.githubusercontent.com/Lotus-OS/android_manifest/pie/IMG_20191122_201827_999.jpg"> 
 
 Getting Started:
 ==============
