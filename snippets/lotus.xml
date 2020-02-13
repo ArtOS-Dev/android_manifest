@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="LotusOS"
+          fetch="https://github.com/Lotus-OS"
+          revision="Quiche-WIP" />
+
+  <remote name="LotusOS-Devices"
+          fetch="https://github.com/LotusOS-Devices"
+          revision="Quiche" />
+
+  <!-- External repos -->
+  <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="LotusOS" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="LotusOS" />
+  <project path="external/sqlite" name="android_external_sqlite" remote="LotusOS" />
+
+  <!-- Framework repos -->
+  <project path="frameworks/av" name="android_frameworks_av" remote="LotusOS" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="LotusOS" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="LotusOS" />
+  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="LotusOS" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="LotusOS" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="LotusOS" />
+
+  <!-- Build -->
+  <project path="build/make" name="android_build_make" remote="LotusOS">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="android_build_soong" remote="LotusOS">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+ 
+  <!--Genernal-->
+  <project path="bionic" name="android_bionic" remote="LotusOS" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="LotusOS" />
+  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="LotusOS" />
+  <project path="device/lotus/sepolicy" name="android_device_lotus_sepolicy" remote="LotusOS" />
+  <project path="manifest" name="android_manifest" remote="LotusOS" />
+  <project path="vendor/lotus" name="android_vendor_lotus" remote="LotusOS" />
+  <project path="vendor/pixelstyle" name="android_vendor_pixelstyle" remote="LotusOS" />
+
+  <!-- Hardware repos -->  
+  <project path="hardware/lotus/interfaces" name="android_hardware_lotus_interfaces" remote="LotusOS" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="LotusOS" />
+
+  <!-- Packages repos -->
+  <!-- <project path="packages/apps/Lotus" name="android_packages_apps_Lotus" remote="LotusOS" /> -->
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="LotusOS" />
+  <!-- <project path="packages/apps/Updates" name="android_packages_apps_Updates" remote="LotusOS" /> -->
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="LotusOS" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="LotusOS" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="LotusOS" />
+
+  <!-- System Repos -->
+  <project path="system/core" name="android_system_core" remote="LotusOS" />
+  <project path="system/netd" name="android_system_netd" remote="LotusOS" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="LotusOS" />
+  <project path="system/vold" name="android_system_vold" remote="LotusOS" />
+
+</manifest>
