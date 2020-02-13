@@ -799,5 +799,11 @@
   
   <!-- Add all LotusOS repos -->
   <include name="snippets/lotus.xml" />
+  
+  <!-- Add some MoKee repos -->
+  <include name="snippets/mokee.xml" />
+  
+  <!-- Enable Gapps -->
+  <!-- <include name="snippets/gapps.xml /> -->
 
 </manifest>
