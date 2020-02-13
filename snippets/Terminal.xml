@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="LineageOS"
+          fetch="https://github.com/LineageOS"
+          revision="lineage-17.1" />
+          
+  <project path="external/htop" name="android_external_htop" remote="LineageOS" />
+  <project path="external/bash" name="android_external_bash" remote="LineageOS" />
+  <project path="external/openssh" name="android_external_openssh" remote="LineageOS" />
+  <project path="external/nano" name="android_external_nano" remote="LineageOS" />
+  <project path="external/rsync" name="android_external_rsync" remote="LineageOS" />
+  <!-- <project path="external/openssl" name="android_external_openssl" remote="LineageOS" /> -->
+  <project path="external/zip" name="android_external_zip" remote="LineageOS" />
+  <project path="external/p7zip" name="android_external_p7zip" remote="LineageOS" />
+  <project path="external/libncurses" name="android_external_libncurses" remote="LineageOS" />
+  <!-- <project path="external/curl" name="android_external_curl" remote="LineageOS" /> -->
+  <!-- <project path="external/unzip" name="android_external_unzip" remote="LineageOS" /> -->
+  <!-- <project path="external/bzip2" name="android_external_bzip2" remote="LineageOS" /> -->
+  <!-- <project path="external/lz4" name="android_external_lz4" remote="LineageOS" /> -->
+  <!-- <project path="external/clang" name="android_external_clang" remote="LineageOS" /> -->
+  <!-- <project path="external/ping" name="android_external_ping" remote="LineageOS" /> -->
+  <!-- <project path="external/busybox" name="android_external_busybox" remote="LineageOS" /> -->
+  <!-- <project path="external/skia" name="android_external_skia" remote="LineageOS" /> -->
+</manifest>
