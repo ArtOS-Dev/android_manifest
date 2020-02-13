@@ -803,6 +803,9 @@
   <!-- Add some MoKee repos -->
   <include name="snippets/mokee.xml" />
   
+  <!-- Add Bash Terminal repos -->
+  <include name="snippets/Terminal.xml" />
+  
   <!-- Enable Gapps -->
   <!-- <include name="snippets/gapps.xml /> -->
 
