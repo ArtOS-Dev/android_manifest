@@ -5,6 +5,6 @@
           fetch="https://github.com/MoKee"
           revision="mkq" />
           
-  <project path="external/airbnb-lottie" name="android_device_mokee_sepolicy" remote="MoKee" />
+  <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="MoKee" />
   
 </manifest>
