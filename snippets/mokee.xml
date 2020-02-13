@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="MoKee"
+          fetch="https://github.com/MoKee"
+          revision="mkq" />
+          
+  <project path="external/airbnb-lottie" name="android_device_mokee_sepolicy" remote="MoKee" />
+  
+</manifest>
