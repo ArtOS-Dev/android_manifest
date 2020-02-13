@@ -1,6 +1,6 @@
 # LotusOS #
 
-<img src="https://raw.githubusercontent.com/Lotus-OS/android_manifest/pie/IMG_20191122_201827_999.jpg"> 
+<img src="https://raw.githubusercontent.com/LotusOS/android_manifest/pie/IMG_20191122_201827_999.jpg"> 
 
 Getting Started:
 ==============
@@ -10,7 +10,7 @@ To get started with the building process, you'll need to get familiar with [Git 
 To initialize your local repository, use a command like this:
 
 ```bash
-    repo init -u https://github.com/Lotus-OS/android_manifest.git -b pie
+    repo init -u https://github.com/LotusOS/android_manifest.git -b pie
 ```
 
 Then to sync up:
