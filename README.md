@@ -1,6 +1,6 @@
 # LotusOS #
 
-<img src="https://raw.githubusercontent.com/Lotus-OS/android_manifest/Quiche-WIP/IMG_20200212_001341_962.jpg"> 
+<img src="https://raw.githubusercontent.com/LotusOS/android_manifest/Quiche-WIP/IMG_20200212_001341_962.jpg"> 
 
 Getting Started:
 ==============
@@ -10,7 +10,7 @@ To get started with the building process, you'll need to get familiar with [Git 
 To initialize your local repository, use a command like this:
 
 ```bash
-    repo init -u https://github.com/Lotus-OS/android_manifest.git -b Quiche-WIP
+    repo init -u https://github.com/LotusOS/android_manifest.git -b Quiche-WIP
 ```
 
 Then to sync up:
