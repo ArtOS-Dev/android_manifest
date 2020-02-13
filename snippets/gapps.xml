@@ -12,6 +12,6 @@
   <remote name="gitlab"
           fetch="https://gitlab.com" />
 
-<project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
+  <project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
 
 </manifest>
