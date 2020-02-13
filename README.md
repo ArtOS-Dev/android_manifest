@@ -1,6 +1,6 @@
 # LotusOS #
 
-<img src="https://raw.githubusercontent.com/Lotus-OS/android_manifest/Quiche-WIP/IMG_20191122_201827_999.jpg"> 
+<img src="https://raw.githubusercontent.com/Lotus-OS/android_manifest/Quiche-WIP/IMG_20200212_001341_962.jpg"> 
 
 Getting Started:
 ==============
@@ -41,7 +41,7 @@ make bacon -j$(nproc --all)
 
  Credits:
 =======
-======= Source Links =============================================
+======= Source Links =======
  * [**CyanogenMod**](https://github.com/Cyanogenmod)            ☑️
  * [**LineageOS**](https://github.com/LineageOS)                ☑️
  * [**AOSP**](https://android.googlesource.com)                 ☑️
