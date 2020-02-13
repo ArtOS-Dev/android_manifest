@@ -45,6 +45,7 @@ make bacon -j$(nproc --all)
  * [**CyanogenMod**](https://github.com/Cyanogenmod)            ☑️
  * [**LineageOS**](https://github.com/LineageOS)                ☑️
  * [**AOSP**](https://android.googlesource.com)                 ☑️
+ * [**CherishOS**](https://github.com/CherishOS)
  * [**Evolution-X**](https://github.com/Evolution-X)            ❎
  * [**LineageOS**](https://github.com/LineageOS)                ☑️
  * [**DirtyUnicorns**](https://github.com/dirtyunicorns)        ☑️
