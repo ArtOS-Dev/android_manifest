@@ -62,5 +62,5 @@ make bacon -j$(nproc --all)
  ## Maintainer
  * [**Nobi Nobita**](https://t.me/polanobi)
  * [**Đinh Trọng San**](https://t.me/san2k)
- * [**mrhaiXXX**](https://t.me)
+ * [**mrhainavn**](https://t.me)
  
