@@ -4,7 +4,12 @@
   <remote name="LineageOS"
           fetch="https://github.com/LineageOS"
           revision="lineage-17.1" />
-          
+  
+  <remote name="Ahren-Li"
+          fetch="https://github.com/Ahren-Li"
+          revision="master"
+         
+  <project path="external/parted" name="android-external-parted-3.2" remote="Ahren-Li" />
   <project path="external/htop" name="android_external_htop" remote="LineageOS" />
   <project path="external/bash" name="android_external_bash" remote="LineageOS" />
   <project path="external/openssh" name="android_external_openssh" remote="LineageOS" />
