@@ -7,11 +7,11 @@
   
   <remote name="Ahren-Li"
           fetch="https://github.com/Ahren-Li"
-          revision="master"
+          revision="master" />
           
   <remote name="Google-External"
           fetch="https://android.googlesource.com/platform/external"
-          revision="master"
+          revision="master" />
          
   <project path="external/roboto-fonts" name="roboto-fonts" remote="Google-External" />
   <project path="external/parted" name="android-external-parted-3.2" remote="Ahren-Li" />
