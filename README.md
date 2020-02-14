@@ -59,3 +59,8 @@ make bacon -j$(nproc --all)
  * [**BootleggersROM**](https://github.com/BootleggersROM)      ☑️
  * [**AICP**](https://github.com/AICP)                          ☑️
  
+ ## Maintainer
+ * [**Nobi Nobita**](https://t.me/polanobi)
+ * [**Đinh Trọng San**](https://t.me/san2k)
+ * [**mrhaiXXX**](https://t.me)
+ 
