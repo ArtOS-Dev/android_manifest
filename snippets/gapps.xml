@@ -4,10 +4,6 @@
   <remote name="pixel-gitlab"
           fetch="https://gitlab.com/PixelExperience"
           revision="ten" />
-  
-  <remote name="pixel-gitlab"
-          fetch="https://gitlab.com/PixelExperience"
-          revision="ten" />
 
   <remote name="gitlab"
           fetch="https://gitlab.com" />
