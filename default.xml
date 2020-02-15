@@ -806,6 +806,9 @@
   <!-- Add Bash Terminal repos -->
   <include name="snippets/Terminal.xml" />
   
+  <!-- Tester repos manifest -->
+  <include name="snippets/tester.xml" />
+  
   <!-- Enable Gapps -->
   <!-- <include name="snippets/gapps.xml /> -->
 
