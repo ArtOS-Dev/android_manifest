@@ -50,4 +50,11 @@
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="pixel" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="pixel" />
   <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="pixel" />
+  
+  <!-- NFC -->
+  <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" remote="pixel" />
+  <project path="vendor/nxp/opensource/commonsys/frameworks" name="vendor_nxp_opensource_commonsys_frameworks" remote="pixel" />
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="vendor_nxp_opensource_commonsys_external_libnfc-nci" remote="pixel" />
+  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="vendor_nxp_opensource_commonsys_packages_apps_Nfc" remote="pixel" />
+  <project path="vendor/nxp/opensource/sn100x/halimpl" name="vendor_nxp_opensource_sn100x_halimpl" remote="pixel" />
 </manifest>
