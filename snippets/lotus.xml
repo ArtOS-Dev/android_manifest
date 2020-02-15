@@ -12,7 +12,7 @@
   <!-- External repos -->
   <!--<project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="LotusOS" /> MoKee -->
   <project path="external/tinycompress" name="android_external_tinycompress" remote="LotusOS" />
-  <project path="external/sqlite" name="android_external_sqlite" remote="LotusOS" />
+  <!-- <project path="external/sqlite" name="android_external_sqlite" remote="LotusOS" /> -->
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="android_frameworks_av" remote="LotusOS" />
