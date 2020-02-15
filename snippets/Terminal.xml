@@ -13,7 +13,7 @@
           fetch="https://android.googlesource.com/platform/external"
           revision="master" />
          
-  <project path="external/roboto-fonts" name="roboto-fonts" remote="Google-External" />
+  <!-- <project path="external/roboto-fonts" name="roboto-fonts" remote="Google-External" /> -->
   <project path="external/parted" name="android-external-parted-3.2" remote="Ahren-Li" />
   <project path="external/htop" name="android_external_htop" remote="LineageOS" />
   <project path="external/bash" name="android_external_bash" remote="LineageOS" />
