@@ -54,7 +54,7 @@
   <!-- <project path="packages/apps/Lotus" name="android_packages_apps_Lotus" remote="LotusOS" /> -->
   <!-- <project path="packages/apps/PermissionController" name="android_packages_apps_PackageInstaller" remote="LotusOS" /> -->
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="LotusOS" />
-  <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="LotusOS" />
+  <!-- <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="LotusOS" /> -->
   <!-- <project path="packages/apps/Updates" name="android_packages_apps_Updates" remote="LotusOS" /> -->
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="LotusOS" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="LotusOS" />
