@@ -43,7 +43,8 @@
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="LotusOS" />
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="LotusOS" />
   <!-- <project path="manifest" name="android_manifest" remote="LotusOS" /> -->
-  <project path="platform_testing" name="android_platform_testing" remote="LotusOS" />
+  <project path="platform/testing" name="android_platform_testing" remote="LotusOS" />
+  <project path="prebuilts/tools-lotus" name="android_prebuilts_tools-lotus" remote="LotusOS" />
 
   <!-- Hardware -->
   <project path="hardware/lotus/interfaces" name="android_hardware_lotus_interfaces" remote="LotusOS" />
