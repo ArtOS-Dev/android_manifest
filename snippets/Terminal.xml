@@ -17,7 +17,7 @@
   <project path="external/parted" name="android-external-parted-3.2" remote="Ahren-Li" />
   <project path="external/htop" name="android_external_htop" remote="LineageOS" />
   <project path="external/bash" name="android_external_bash" remote="LineageOS" />
-  <project path="external/openssh" name="android_external_openssh" remote="LineageOS" />
+  <!-- <project path="external/openssh" name="android_external_openssh" remote="LineageOS" /> -->
   <project path="external/nano" name="android_external_nano" remote="LineageOS" />
   <project path="external/rsync" name="android_external_rsync" remote="LineageOS" />
   <!-- <project path="external/openssl" name="android_external_openssl" remote="LineageOS" /> -->
