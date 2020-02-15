@@ -69,7 +69,7 @@
 
   <!-- Vendor -->
   <project path="vendor/lotus" name="android_vendor_lotus" remote="LotusOS" />
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="LotusOS" />
+  <!-- <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="LotusOS" /> -->
   <project path="vendor/pixelstyle" name="android_vendor_pixelstyle" remote="LotusOS" />
 
 </manifest>
