@@ -1,72 +1,66 @@
-# Pixel Experience #
+# LotusOS #
 
-### Sync ###
+<img src="https://raw.githubusercontent.com/LotusOS/android_manifest/ten/LotusOS.jpg"> 
+
+Getting Started:
+==============
+
+To get started with the building process, you'll need to get familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+
+Packages Install Ubuntu :
+```bash
+   sudo dpkg --add-architecture i386 && sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get install -y git-core gnupg flex bison gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev libgl1-mesa-dev libxml2-utils xsltproc unzip bc repo nano && sudo apt-get install -y git gnupg flex bison gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 x11proto-core-dev libx11-dev libgl1-mesa-dev libxml2-utils xsltproc unzip bc repo nano libssl-dev && sudo apt-get install -y openjdk-8-jdk android-tools-adb bc bison build-essential curl flex g++-multilib gcc-multilib gnupg gperf imagemagick lib32readline-dev lib32z1-dev liblz4-tool libncurses5-dev libsdl1.2-dev libssl-dev libwxgtk3.0-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc yasm zip zlib1g-dev && sudo apt-get install -y build-essential kernel-package libncurses5-dev bzip2 android-liblog android-libbacktrace libtinyxml2-6 android-libutils android-sdk-build-tools git-lfs libncurses5:i386 libncurses5 ccache build-essential p7zip-full git libgtk2.0-dev chrpath libncurses5-dev libdbus-1-dev ruby libgl1-mesa-dev "^libxcb.*" libx11-xcb-dev libxrender-dev libxi-dev flex bison gperf patchelf build-essential kernel-package libncurses5-dev bzip2 android-liblog android-libbacktrace libtinyxml2-6 android-libutils android-sdk-build-tools git-lfs libncurses5:i386 libncurses5 ccache
+```
+
+To initialize your local repository, use a command like this:
 
 ```bash
-
-# Initialize local repository
-repo init -u https://github.com/PixelExperience/manifest -b ten
-
-# Sync
-repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+    repo init -u https://github.com/LotusOS/android_manifest.git -b ten
 ```
 
-### Build ###
+Then to sync up:
+================
 
 ```bash
-
-# Set up environment
-$ . build/envsetup.sh
-
-# Choose a target
-$ lunch aosp_$device-userdebug
-
-# Build the code
-$ mka bacon -jX
+    repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
 
-### Submitting Patches ###
-
-Patches are always welcome!  Please submit your patches to our Gerrit.
-
-To start contributing, just register at https://gerrit.pixelexperience.org
-
-Open up terminal to create your ssh keys required for submitting patches to gerrit and type in:
+Additionally, you can define the number of parallel download repo should do:
 
 ```bash
-git config --global review.gerrit.pixelexperience.org.username <username you registered with>
-
-git config --global review.gerrit.pixelexperience.org.email <your email you registered with>
-
-ssh-keygen -t rsa -C "your@email.com"
+    repo sync -f -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
 
-In our gerrit click on your "Avatar" on the top right, then on "Settings".
+Compilation of Lotus OS:
+====================
 
-While in 'Settings' Click on "SSH Public Keys" on the left hand side and then on "Add Key".
+From root directory of Project, perform following commands in terminal
 
-Now on your computer navigate to your home "~/.ssh" and open up "id_rsa.pub", copy/paste the context to "Gerrit SSH Public Keys".
 
-You can send patches to us by using these commands in terminal:
-
+```bash
+source build/envsetup.sh
+lunch lotus_<devicecodename>-userdebug
+mka bacon -j$(nproc --all)
 ```
-    (From root android directory)
-    . build/envsetup.sh
-    (Go to repo you are patching, make your changes and commit)
-    pixelgerrit push ten
+-----------------------------------------------------------------------------
 
-    or
-
-    git push ssh://<username>@gerrit.pixelexperience.org:29418/<project> HEAD:refs/for/<branch>
-```
-
-* `<username>` - Your Gerrit username (which can be seen/set [here](https://gerrit.pixelexperience.org/#/settings/))
-* `<project>` - The git repo you are pushing to; all options can be viewed at [this link](https://gerrit.pixelexperience.org/#/admin/projects/)
-* `<branch>` - The git branch your change is based on; for projects using this manifest, it is `ten`
-
-Make your changes and commit with a detailed message, starting with what you are working with
-Commit your patches in a single commit. Squash multiple commits using this command: `git rebase -i HEAD~<# of commits>`
-
-For more help, use this commands: `pixelgerrit help` or `pixelrebase help`
-
-[View Code Review](https://gerrit.pixelexperience.org/)
+ Credits:
+=======
+ * [**CyanogenMod**](https://github.com/Cyanogenmod)
+ * [**LineageOS**](https://github.com/LineageOS)
+ * [**AOSP**](https://android.googlesource.com)
+ * [**CherishOS**](https://github.com/CherishOS)
+ * [**Evolution-X**](https://github.com/Evolution-X)
+ * [**LineageOS**](https://github.com/LineageOS)
+ * [**DirtyUnicorns**](https://github.com/dirtyunicorns)
+ * [**AospExtended**](https://github.com/AospExtended)
+ * [**PixelExperience**](https://github.com/PixelExperience)
+ * [**Havoc-OS**](https://github.com/Havoc-OS)
+ * [**AOSCP**](https://github.com/AOSCP)
+ * [**NitogenOS**](https://github.com/NitogenOS)
+ * [**MSM-Xtended**](https://github.com/MSM-Xtended)
+ * [**DescendantOS**](https://github.com/Descendant)
+ * [**BootleggersROM**](https://github.com/BootleggersROM)
+ * [**AICP**](https://github.com/AICP)
+ 
+-----------------------------------------------------------------------------
