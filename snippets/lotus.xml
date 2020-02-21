@@ -58,7 +58,7 @@
   <project path="bootable/recovery" name="android_bootable_recovery" remote="lotus" />
   <project path="development" name="android_development" remote="lotus" />
   <project path="device/lotus/sepolicy" name="android_device_lotus_sepolicy" remote="lotus" />
-  <project path="manifest" name="manifest" remote="lotus" />
+  <project path="manifest" name="android_manifest" remote="lotus" />
   <project path="platform_testing" name="android_platform_testing" remote="lotus" />
   <project path="vendor/lotus" name="android_vendor_lotus" remote="lotus" />
   <!-- <project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" /> -->
