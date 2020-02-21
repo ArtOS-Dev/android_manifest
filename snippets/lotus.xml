@@ -89,7 +89,7 @@
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="lotus" />
   <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="lotus" />
   <project path="packages/apps/Traceur" name="android_packages_apps_Traceur" remote="lotus" />
-  <project path="packages/apps/Updates" name="android_packages_apps_Updates" remote="lotus" />
+  <!-- <project path="packages/apps/Updates" name="android_packages_apps_Updates" remote="lotus" /> -->
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="lotus" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="lotus" />
   <project path="packages/services/BuiltInPrintService" name="android_packages_services_BuiltInPrintService" remote="lotus" />
