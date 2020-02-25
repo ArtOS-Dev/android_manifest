@@ -57,7 +57,7 @@
   <project path="build/blueprint" name="android_build_blueprint" remote="lotus" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="lotus" />
   <project path="development" name="android_development" remote="lotus" />
-  <project path="device/custom/sepolicy" name="android_device_custom_sepolicy" remote="lotus" />
+  <project path="device/lotus/sepolicy" name="android_device_lotus_sepolicy" remote="lotus" />
   <project path="manifest" name="android_manifest" remote="lotus" />
   <project path="platform_testing" name="android_platform_testing" remote="lotus" />
   <project path="vendor/lotus" name="android_vendor_lotus" remote="lotus" />
@@ -66,7 +66,7 @@
   <project path="vendor/google/customization" name="android_vendor_google_customization" remote="lotus" />
 
   <!-- Hardware repos -->
-  <project path="hardware/custom/interfaces" name="android_hardware_custom_interfaces" remote="lotus" />
+  <project path="hardware/lotus/interfaces" name="android_hardware_lotus_interfaces" remote="lotus" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="lotus" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="lotus" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="lotus" />
