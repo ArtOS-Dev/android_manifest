@@ -61,7 +61,7 @@
   <project path="manifest" name="android_manifest" remote="lotus" />
   <project path="platform_testing" name="android_platform_testing" remote="lotus" />
   <project path="vendor/lotus" name="android_vendor_lotus" remote="lotus" />
-  <!-- <project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" /> -->
+  <project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
   <project path="vendor/pixelstyle" name="android_vendor_pixelstyle" remote="lotus" />
   <project path="vendor/google/customization" name="android_vendor_google_customization" remote="lotus" />
 
