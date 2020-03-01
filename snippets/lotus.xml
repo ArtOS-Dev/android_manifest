@@ -100,7 +100,8 @@
 
   <!-- External repos -->
   <project path="external/tinycompress" name="android_external_tinycompress" remote="lotus" />
-
+  <project path="external/htop" name="android_external_htop" remote="lotus" />
+  
   <!-- System Repos -->
   <project path="system/apex" name="android_system_apex" remote="lotus" />
   <project path="system/bt" name="android_system_bt" remote="lotus" />
