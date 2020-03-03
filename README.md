@@ -22,13 +22,13 @@ Then to sync up:
 ================
 
 ```bash
-    repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+    repo sync -vc -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
 
 Additionally, you can define the number of parallel download repo should do:
 
 ```bash
-    repo sync -f -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+    repo sync -vf -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
 
 Compilation of Lotus OS:
