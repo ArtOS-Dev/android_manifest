@@ -64,6 +64,7 @@
   <project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
   <project path="vendor/pixelstyle" name="android_vendor_pixelstyle" remote="lotus" />
   <project path="vendor/google/customization" name="android_vendor_google_customization" remote="lotus" />
+  <project path="vendor/Lawnchair" name="android_vendor_Lawnchair" remote="lotus" />
 
   <!-- Hardware repos -->
   <project path="hardware/lotus/interfaces" name="android_hardware_lotus_interfaces" remote="lotus" />
