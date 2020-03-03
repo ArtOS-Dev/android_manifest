@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/LotusOS/android_manifest/ten/LotusOS.jpg"> 
 
-Getting Started:
+## Getting Started: ##
 ==============
 
 To get started with the building process, you'll need to get familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
@@ -18,7 +18,7 @@ To initialize your local repository, use a command like this:
     repo init -u https://github.com/LotusOS/android_manifest.git -b ten
 ```
 
-Then to sync up:
+## Then to sync up: ##
 ================
 
 ```bash
@@ -31,7 +31,7 @@ Additionally, you can define the number of parallel download repo should do:
     repo sync -vf -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
 
-Compilation of Lotus OS:
+## Compilation of Lotus OS: ##
 ====================
 
 From root directory of Project, perform following commands in terminal
@@ -45,7 +45,7 @@ mka bacon -j$(nproc --all)
 ```
 -----------------------------------------------------------------------------
 
- Credits:
+## Credits: ##
 =======
  * [**CyanogenMod**](https://github.com/Cyanogenmod)
  * [**LineageOS**](https://github.com/LineageOS)
