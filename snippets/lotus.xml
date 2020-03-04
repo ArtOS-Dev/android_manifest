@@ -102,7 +102,7 @@
   <!-- External repos -->
   <project path="external/tinycompress" name="android_external_tinycompress" remote="lotus" />
   <project path="external/htop" name="android_external_htop" remote="lotus" />
- 
+  <project path="external/libncurses" name="android_external_libncurses" remote="lotus" />
   
   <!-- System Repos -->
   <project path="system/apex" name="android_system_apex" remote="lotus" />
